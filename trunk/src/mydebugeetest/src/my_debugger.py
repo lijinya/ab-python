@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 '''
 Created on 2011-1-24
 
@@ -132,4 +132,4 @@ class debugger():
 			kernel32.CloseHandle(h_thread)
 			return context
 		else:
-			return False
+			return False#endfile
