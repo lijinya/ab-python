@@ -147,7 +147,7 @@ EXCEPTION_MAXIMUM_PARAMETERS	= 15	# maximum number of exception parameters
 class EXCEPTION_RECORD(Structure):
 	_fields_ = [
 		("ExceptionCode", DWORD),
-		("EceptionFlags", DWORD),
+		("ExceptionFlags", DWORD),
 		("ExceptionRecord", PVOID),#EXCEPTION_RECORD
 		("ExceptionAddress", PVOID),
 		("NumberParameters", DWORD),
